@@ -29,3 +29,6 @@ A distributed governance model that empowers users to vote on important decision
 - **Start Messaging:** With your group set up, you’re ready to begin secure communications. All messages are protected by our advanced encryption technology, ensuring privacy and security.
 - **AI Model Integration:** The AI model is seamlessly integrated within the app, constantly running in the background. It automatically scans and analyzes messages for any potential threats, providing real-time protection against scams and malicious attacks.
 - **Invite New Members:** To expand your community, you can invite new members. This requires spending some tokens, which serves as a gatekeeping mechanism to maintain the integrity and security of the group. Tokens can be earned through active participation in the community or by contributing to the platform's security.
+
+  
+![555d18ade9fcf46b581cb04e403c515](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/5be6dc4e-ebbd-447f-b1d9-cd4d6370e506)
