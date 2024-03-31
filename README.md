@@ -30,5 +30,13 @@ A distributed governance model that empowers users to vote on important decision
 - **AI Model Integration:** The AI model is seamlessly integrated within the app, constantly running in the background. It automatically scans and analyzes messages for any potential threats, providing real-time protection against scams and malicious attacks.
 - **Invite New Members:** To expand your community, you can invite new members. This requires spending some tokens, which serves as a gatekeeping mechanism to maintain the integrity and security of the group. Tokens can be earned through active participation in the community or by contributing to the platform's security.
 
-  
+##Smart contract overall
 ![555d18ade9fcf46b581cb04e403c515](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/5be6dc4e-ebbd-447f-b1d9-cd4d6370e506)
+
+##ML design overall
+
+
+![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/77ae794c-8ff2-4bd3-af73-dc4075651d71)
+
+
+
