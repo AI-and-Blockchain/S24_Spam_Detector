@@ -31,7 +31,8 @@ A distributed governance model that empowers users to vote on important decision
 - **Invite New Members:** To expand your community, you can invite new members. This requires spending some tokens, which serves as a gatekeeping mechanism to maintain the integrity and security of the group. Tokens can be earned through active participation in the community or by contributing to the platform's security.
 
 ##Smart contract overall
-![555d18ade9fcf46b581cb04e403c515](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/5be6dc4e-ebbd-447f-b1d9-cd4d6370e506)
+
+<img width="644" alt="b7fedfc86d9c78fa027bbf0202565ea" src="https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/679c7662-1922-4e64-a5a6-2c7d7eeb0811">
 
 ##ML design overall
 
