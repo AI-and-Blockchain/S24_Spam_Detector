@@ -34,10 +34,18 @@ A distributed governance model that empowers users to vote on important decision
 
 <img width="644" alt="b7fedfc86d9c78fa027bbf0202565ea" src="https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/679c7662-1922-4e64-a5a6-2c7d7eeb0811">
 
+
+
 ##ML design overall
 
 
 ![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/77ae794c-8ff2-4bd3-af73-dc4075651d71)
+
+
+##sequence picture
+
+<img width="865" alt="01ec4da5ad2842cfa35e5b5fd3feb5b" src="https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/fb741f22-55d1-45ee-b159-01cee526cab7">
+
 
 
 
