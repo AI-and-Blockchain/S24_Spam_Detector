@@ -169,7 +169,9 @@ def train(model, train_dataloader, test_dataloader, opt, loss_fn, device, n_epoc
         save_dir = Path(save_dir)
         save_dir.mkdir(parents=True, exist_ok=True)
         # torch.save(model.state_dict(), save_dir + 'pytorch_model.bin')
-        torch.save(model.state_dict(), save_dir / "pytorch_model.bin")
+        #torch.save(model.state_dict(), save_dir / "pytorch_model.bin")
+        torch.save(model.state_dict(), save_dir / "pytorch_model.pt")
+
 
         model.eval()
         evaluate(model, test_dataloader, loss_fn, device, epoch)
