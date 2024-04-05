@@ -7,3 +7,12 @@ Spam Detector aims to detect if the inputting message is a spam by using NLP tec
 The dataset used for this case is SMS Spam Collection from https://archive.ics.uci.edu/dataset/228/sms+spam+collection. It contains 5572 samples, 4825 for ham and 747 for spam. 4134 samples (3619 for ham and 560 for spam) are used for training, and the rest (1206 for ham and 187 for spam) are used for testing.
 
 ### Training process flow diagram
+![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/55873378/106f3db4-b343-498f-aa40-0201fd0f7ef9)
+
+### How to run
+- how to train:
+    python main.py
+- how to do testing on testset:
+    python testing.py
+- how to make ML model interact with smart contract:
+    revise the "contract address" and "abi.json" according to your deployed contract, and send the message from contract to ML model. After the analysis of model, the output would be sent back to smart contract, and store in the variable "outputData". 
