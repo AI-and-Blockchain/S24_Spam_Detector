@@ -21,3 +21,5 @@ The `MessageContract` enables sending messages with Ether transactions. It incor
 - **Refunds**: The contract owner can issue refunds to any user.
 - **Balance Withdrawal**: Users can withdraw their balance at any time. The owner can also withdraw accumulated fees.
 
+![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/43931632/36689115-17e9-4da5-8013-6843309ce73f)
+
