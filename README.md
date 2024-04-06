@@ -32,7 +32,7 @@ A distributed governance model that empowers users to vote on important decision
 
 ### Smart contract overall
 
-<img width="644" alt="b7fedfc86d9c78fa027bbf0202565ea" src="https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/679c7662-1922-4e64-a5a6-2c7d7eeb0811">
+<img width="752" alt="image" src="https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/94344406/6aaf5c73-77e6-4189-9e92-83c71a06b7dd">
 
 
 
