@@ -38,8 +38,8 @@ contract MessageContract {
 
     function sendMessage(string calldata message) external {
         require(balances[msg.sender] >= messageFee, "Insufficient balance to send message.");
-        balances[msg.sender] -= messageFee; // Deduct the message charge from the user's balance.
-        balances[owner] += messageFee; // Add the charge to the owner's balance.
+        balances[msg.sender] -= messageFee;
+        balances[owner] += messageFee;
         messages[msg.sender] = message;
         emit MessageReceived(msg.sender, message);
     }
@@ -47,7 +47,7 @@ contract MessageContract {
 
     function refundUser(address payable recipient, uint amount) external onlyOwner {
         require(amount <= balances[owner], "Insufficient balance for refund.");
-        balances[owner] -= amount; // Deduct the amount from the owner's accumulated balance
+        balances[owner] -= amount;
         recipient.transfer(amount);
         emit RefundIssued(recipient, amount);
     }
