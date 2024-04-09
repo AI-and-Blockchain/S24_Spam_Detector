@@ -26,4 +26,4 @@ The dataset used for this case is SMS Spam Collection from https://archive.ics.u
 A pretrained model checkpoint is in /models . In case you cannot git clone it because of its size, you could download the checkpoint from https://drive.google.com/file/d/1bwPLWojfG432DDhHHmKeBsgtassp4Wrp/view?usp=sharing. We supply two format: .bin and .pt
 
 
-<font color=gray>sadasdasdasdas</font> 
+<font color=gray size=4>sadasdasdasdas</font> 
