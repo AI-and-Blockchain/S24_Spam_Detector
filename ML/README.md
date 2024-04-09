@@ -12,7 +12,15 @@ The dataset used for this case is SMS Spam Collection from https://archive.ics.u
 ### How to run
 - how to train:
     python main.py
+  
 - how to do testing on testset:
     python testing.py
+  
 - how to make ML model interact with smart contract:
-    revise the "contract address" and "abi.json" according to your deployed contract, and send the message from contract to ML model. After the analysis of model, the output would be sent back to smart contract, and store in the variable "outputData". 
+    a. revise the "contract address" in "contract_interface.py" and "abi.json" according to your deployed contract.
+    b. 
+
+   and send the message from contract to ML model. After the analysis of model, the output would be sent back to smart contract, and store in the variable "outputData". 
+
+### Checkpoint:
+A pretrained model checkpoint is in /models . In case you cannot git clone it because of its size, you could download the checkpoint from https://drive.google.com/file/d/1bwPLWojfG432DDhHHmKeBsgtassp4Wrp/view?usp=sharing. We supply two format: .bin and .pt
