@@ -1,70 +1,45 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.6;
 
-contract MessageContract {
+contract transferToken {
     address public owner;
-    uint256 public messageFee;
-    mapping(address => string) public messages;
-    mapping(address => uint256) public balances;
-
-    event MessageReceived(address sender, string message);
-    event RefundIssued(address recipient, uint256 amount);
-    event DepositReceived(address sender, uint256 amount);
-    event MessageFeeUpdated(uint256 newCharge);
+    mapping(bytes32 => uint256) private depositAmount;
+    mapping(bytes32 => address[]) private voters;
 
     constructor() {
         owner = msg.sender;
-        balances[owner] = 0;
     }
 
     modifier onlyOwner() {
-        require(msg.sender == owner, "Only the owner can call this function.");
+        require(msg.sender == owner, "Not authorized");
         _;
     }
 
-
-    function deposit() external payable {
-        require(msg.value > 0, "You must send some Ether.");
-        balances[msg.sender] += msg.value;
-        emit DepositReceived(msg.sender, msg.value);
+    function sendMessage(string memory email) public payable {
+        require(msg.value > 0, "Ether deposit required");
+        bytes32 emailHash = keccak256(abi.encodePacked(email));
+        depositAmount[emailHash] += msg.value;
     }
 
-
-    function setMessageFee(uint256 _fee) external onlyOwner {
-        messageFee = _fee;
-        emit MessageFeeUpdated(_fee);
+    function addVoter(address voterAddress, string memory email) public {
+        require(voterAddress != address(0), "Invalid address.");
+        bytes32 emailHash = keccak256(abi.encodePacked(email));
+        voters[emailHash].push(voterAddress);
     }
 
+    function shareEther(string memory email) public {
+        bytes32 emailHash = keccak256(abi.encodePacked(email));
+        address[] memory currentVoters = voters[emailHash];
+        uint256 voterCount = currentVoters.length;
+        require(voterCount > 0, "No voter.");
 
-    function sendMessage(string calldata message) external {
-        require(balances[msg.sender] >= messageFee, "Insufficient balance to send message.");
-        balances[msg.sender] -= messageFee; // Deduct the message charge from the user's balance.
-        balances[owner] += messageFee; // Add the charge to the owner's balance.
-        messages[msg.sender] = message;
-        emit MessageReceived(msg.sender, message);
-    }
+        uint256 reward = depositAmount[emailHash] / voterCount;
 
+        for (uint256 i = 0; i < voterCount; i++) {
+            payable(currentVoters[i]).transfer(reward);
+        }
 
-    function refundUser(address payable recipient, uint amount) external onlyOwner {
-        require(amount <= balances[owner], "Insufficient balance for refund.");
-        balances[owner] -= amount; // Deduct the amount from the owner's accumulated balance
-        recipient.transfer(amount);
-        emit RefundIssued(recipient, amount);
-    }
-
-
-    function withdrawUser() external {
-        uint256 amount = balances[msg.sender];
-        require(amount > 0, "No balance to withdraw.");
-        balances[msg.sender] = 0;
-        payable(msg.sender).transfer(amount);
-    }
-
-
-    function withdrawOwner() external onlyOwner {
-        uint256 amount = balances[owner];
-        require(amount > 0, "No charges to withdraw.");
-        balances[owner] = 0;
-        payable(owner).transfer(amount);
+        depositAmount[emailHash] = 0;
+        delete voters[emailHash];
     }
 }
