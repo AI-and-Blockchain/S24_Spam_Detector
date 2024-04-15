@@ -11,7 +11,7 @@ Automated AI scanning of messages to detect potential threats, ensuring your com
 
 ### Blockchain-Enhanced Privacy
 
-Our system combines blockchain technology's security with a community-driven approach to ensure secure and private communications. It features encrypted, decentralized messaging to prevent unauthorized access. Membership is community-vetted, with entry through voting, security deposits, or referrals. To combat spam and malicious content, the system records details of suspicious activities on the blockchain, encouraging user vigilance. Users reporting harmful information receive financial rewards, ensuring a proactive, protected community. This creates a secure, transparent communication platform that guards against data tampering and supports whistleblower anonymity.
+Our system combines blockchain technology's security with a community-driven approach to ensure secure and private communications. It features encrypted, decentralized messaging to prevent unauthorized access. To combat spam and malicious content, the system records details of suspicious activities on the blockchain, encouraging user vigilance. Users reporting harmful information receive financial rewards, ensuring a proactive, protected community. This creates a secure, transparent communication platform that guards against data tampering and supports whistleblower anonymity.
 
 ### Token Rewards System
 
