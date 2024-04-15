@@ -24,8 +24,8 @@ A distributed governance model that empowers users to vote on important decision
 
 ## How to Use Spam Detector
 
-- **Download the App:** Start by downloading Spam Detector from the designated app store or our official website. Installation is straightforward and quick.
-- **Start Messaging:** With your group set up, you’re ready to begin secure communications. All messages are protected by our advanced encryption technology, ensuring privacy and security.
+- **Download the App:** Start by downloading Spam Detector from the designated app store. Installation is straightforward and quick.
+- **Start Messaging:** After all things are set up, you’re ready to begin secure communications. All messages are protected by our advanced encryption technology, ensuring privacy and security.
 - **AI Model Integration:** The AI model is seamlessly integrated within the app, constantly running in the server. It automatically scans and analyzes messages for any potential threats, providing real-time protection against scams and malicious attacks.
 
 ### Smart contract overall
