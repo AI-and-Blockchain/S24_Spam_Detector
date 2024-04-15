@@ -16,7 +16,7 @@ Our system combines blockchain technology's security with a community-driven app
 ### Token Rewards System
 
 Whenever users decide to check suspicious messages, they will be charged a nominal token fee. This charge assists in covering the network's operational expenses and incentivizes users who play an active role in identifying suspicious activities. Additionally, by applying a small fee for such reports, it deters the system from being swamped with non-serious claims, ensuring that only genuine concerns are raised.
-Users can earn tokens by actively participating in the platform, @@@@@@@@such as identifying suspicious activities or contributing to community discussions@@@@@@@@@. Tokens can also be awarded for helping to verify the safety of messages, enhancing the collective security of the platform. If a group of the harmful message sender is detected by our Al model. A group of people will be put into the blacklist to protect the community safety. Specifically, by controlling the members in the community, we can prevent malicious voting from happening. 
+Users can earn tokens by actively participating in the platform, such as identifying suspicious activities or contributing to community discussions. Tokens can also be awarded for helping to verify the safety of messages, enhancing the collective security of the platform. If a group of the harmful message sender is detected by our Al model. A group of people will be put into the blacklist to protect the community safety. Specifically, by controlling the members in the community, we can prevent malicious voting from happening. 
 
 ### Community Governance
 
