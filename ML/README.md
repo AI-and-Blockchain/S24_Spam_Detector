@@ -4,7 +4,7 @@ Spam Detector aims to detect if the inputting message is a spam by using NLP tec
 
 ### Dataset
 
-The dataset used for this case is SMS Spam Collection from https://archive.ics.uci.edu/dataset/228/sms+spam+collection. It contains 5572 samples, 4825 for ham and 747 for spam. 4134 samples (3619 for ham and 560 for spam) are used for training, and the rest (1206 for ham and 187 for spam) are used for testing. The training dataset (spam_set) and the testing datset (test_set) are available in https://drive.google.com/file/d/1IBOXkJ2hPnu1W1eQh94Y348xjfYl3r12/view?usp=sharing.
+The dataset used for this case is SMS Spam Collection from https://archive.ics.uci.edu/dataset/228/sms+spam+collection. It contains 5572 samples, 4825 for ham and 747 for spam. 4134 samples (3619 for ham and 560 for spam) are used for training, and the rest (1206 for ham and 187 for spam) are used for testing. The training dataset (spam_set) and the testing datset (test_set) are available in https://drive.google.com/file/d/1IBOXkJ2hPnu1W1eQh94Y348xjfYl3r12/view?usp=sharing. Remember to put them in /spam so that the python could load them successfully.
 
 ### Training process flow diagram
 ![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/55873378/106f3db4-b343-498f-aa40-0201fd0f7ef9)
