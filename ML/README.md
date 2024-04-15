@@ -16,19 +16,19 @@ The dataset used for this case is SMS Spam Collection from https://archive.ics.u
 - how to do testing on testing set in python environment:
     python testing.py
   
-- how to make ML model interact with smart contract (without front end): 
-    a. revise the "contract address" in "contract_interface.py" and "abi.json" according to your deployed contract:
+- how to make ML model interact with smart contract (without front end):
+
+    a. make sure the ML model could receive the message from the contract:
   
-        it is to make sure the ML model could receive the message from the contract.
+        revise the "contract address" in "contract_interface.py" and "abi.json" according to your deployed contract.
   
-    b. send the message to the contract "spanDetector.sol" by using "setInputData" function:
+    b. send a message to the contract manually. in our project, this step would be done by the front end, but this demo is without front end, so you have to do it manually
 
-        in our project, this step would be done by the front end, but this demo is without front end, so you have to send a message to the contract manually.
+        send the message to the contract "spanDetector.sol" by using "setInputData" function
 
-    c. execute the function, "process_input_msg" in "contract_interface.py".
-
-        this step to make the ML model be able to get the message from the contract and do spam detection.
-        After few seconds, the detection result would be sent back to the contract automatically.
+    c. make the ML model be able to get the message from the contract and do spam detection, after few seconds, the detection result would be sent back to the contract automatically:
+  
+        execute the function, "process_input_msg" in "contract_interface.py"
   
     d. you can see the detection output in the variable "outputData" in the contract.
 
