@@ -27,8 +27,9 @@ The dataset used for this case is SMS Spam Collection from https://archive.ics.u
 
     c. execute the function, "process_input_msg" in "contract_interface.py".
 
-    Then the ML model can get the message from the contract and do spam detection.
-    After few seconds, the detection result would be sent back to the contract automatically.
+        this step to make the ML model be able to get the message from the contract and do spam detection.
+        After few seconds, the detection result would be sent back to the contract automatically.
+  
     d. you can see the detection output in the variable "outputData" in the contract.
 
 ### Checkpoint:
