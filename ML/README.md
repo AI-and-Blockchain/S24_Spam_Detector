@@ -1,6 +1,6 @@
 ### spamDetector
 
-Spam Detector aims to detect if the inputting message is a spam by using NLP techniques. Specifically, it tokenizes the words in the message into tokens, and then BERT would learn from the tokens and generates meaning embedding. Finally, a classifier would use the embedding to check if the inputted message is spam, so the entire process can be considered as a two classification task.
+Spam Detector aims to detect if the inputting message is a spam by using NLP techniques. Specifically, it tokenizes the words in the message into tokens, and then BERT would learn from the tokens and generates the meaningful embedding. Finally, a classifier would use the embedding to check if the inputted message is a spam, so the entire process can be considered as a two classification task.
 
 ### Dataset
 
