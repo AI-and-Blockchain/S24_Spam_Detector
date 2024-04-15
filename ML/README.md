@@ -17,7 +17,7 @@ The dataset used for this case is SMS Spam Collection from https://archive.ics.u
     python testing.py
   
 - how to make ML model interact with smart contract:
-    a. revise the "contract address" in "contract_interface.py" and "abi.json" according to your deployed contract.
+    a. revise the "contract address" and "abi.json" according to your deployed contract.
     b. 
 
    and send the message from contract to ML model. After the analysis of model, the output would be sent back to smart contract, and store in the variable "outputData". 
