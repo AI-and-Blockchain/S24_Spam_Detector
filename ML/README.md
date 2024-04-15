@@ -16,7 +16,7 @@ The dataset used for this case is SMS Spam Collection from https://archive.ics.u
 - how to do testing on testing set in python environment:
     python testing.py
   
-- how to make ML model interact with smart contract:
+- how to make ML model interact with smart contract: (On going)
     a. revise the "contract address" and "abi.json" according to your deployed contract.
     b. 
 
