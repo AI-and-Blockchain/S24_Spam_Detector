@@ -16,11 +16,20 @@ The dataset used for this case is SMS Spam Collection from https://archive.ics.u
 - how to do testing on testing set in python environment:
     python testing.py
   
-- how to make ML model interact with smart contract: (On going)
-    a. revise the "contract address" and "abi.json" according to your deployed contract.
-    b. 
+- how to make ML model interact with smart contract (without front end): 
+    a. revise the "contract address" in "contract_interface.py" and "abi.json" according to your deployed contract:
+  
+        it is to make sure the ML model could receive the message from the contract.
+  
+    b. send the message to the contract "spanDetector.sol" by using "setInputData" function:
 
-   and send the message from contract to ML model. After the analysis of model, the output would be sent back to smart contract, and store in the variable "outputData". 
+        in our project, this step would be done by the front end, but this demo is without front end, so you have to send a message to the contract manually.
+
+    c. execute the function, "process_input_msg" in "contract_interface.py".
+
+    Then the ML model can get the message from the contract and do spam detection.
+    After few seconds, the detection result would be sent back to the contract automatically.
+    d. you can see the detection output in the variable "outputData" in the contract.
 
 ### Checkpoint:
 A pretrained model checkpoint is in /models . In case you cannot git clone the checkpoint because of its size, you could download the checkpoint from https://drive.google.com/file/d/1bwPLWojfG432DDhHHmKeBsgtassp4Wrp/view?usp=sharing. We supply two formats: .bin and .pt
