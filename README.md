@@ -20,7 +20,7 @@ Users can earn tokens by actively participating in the platform, such as identif
 
 ### Community Governance
 
-A distributed governance model that empowers users to vote on important decisions, including the admission of new members. Contribute to the platform's development and security protocols through active participation and feedback. Engage with a community of like-minded individuals committed to maintaining a secure and private digital communication space.
+A distributed governance model that empowers users to vote on important decisions, including the vote the blacklist. Contribute to the platform's development and security protocols through active participation and feedback. Engage with a community of like-minded individuals committed to maintaining a secure and private digital communication space.
 
 ## How to Use Spam Detector
 
