@@ -3,6 +3,8 @@
 ## Introduction
 Spam Detector offers a secure and transparent environment for email and message exchanges, protecting users against cyber threats like phishing and information leaks. Our platform introduces a unique token-based incentive system, encouraging active participation in message system security and platform improvement efforts.
 
+video demo: https://www.youtube.com/watch?v=Faw9Cu7BI-E
+
 ## Key Features
 
 ### AI-Powered Security
