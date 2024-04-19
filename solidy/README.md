@@ -13,12 +13,11 @@ The `EmailBlacklistVoting` contract manages an email blacklist through a democra
 
 ## MessageContract (`transferToken2.sol`)
 
-The `MessageContract` enables sending messages with Ether transactions. It incorporates a fee mechanism, ensuring that only users who have paid can send messages. It supports functionalities like:
+The `MessageContract` outlines the fee structure and rewards mechanism implemented in our smart contract for handling suspicious messages and voting for email whitelisting. It supports functionalities like:
 
-- **Depositing Ether**: Users can deposit Ether to their balance within the contract.
-- **Setting and Paying Message Fee**: The owner sets a fee for sending messages. Users must have a balance exceeding this fee to send a message.
-- **Sending Messages**: After paying the fee, users can send a message.
-- **Refunds**: The contract owner can issue refunds to any user.
-- **Balance Withdrawal**: Users can withdraw their balance at any time. The owner can also withdraw accumulated fees.
+- **Charging Message Fee**: The smart contract automatically deducts a fee from the user's account when they send a message flagged as suspicious for verification.
+- **Charging Voting Fee**: The smart contract implements a voting fee when a user participates in voting for the whitelisting of an email address. This fee helps to discourage non-serious voting.
+- **Information Logging**: During the voting process for whitelisting an email address, the smart contract logs specific information like voter’s account address and email address they voted for.
+- **Rewarding Voters**: The smart contract distributes the accumulated tokens for a particular email address equally among the voters who supported its whitelisting.
 
 ![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/94344406/2fd55b3e-0e7b-42b7-9229-07cefbd30ea8)
