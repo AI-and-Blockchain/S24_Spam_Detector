@@ -34,12 +34,12 @@ contract transferToken {
         require(voterCount > 0, "No voter.");
 
         uint256 reward = depositAmount[emailHash] / voterCount;
+        
+        depositAmount[emailHash] = 0;
+        delete voters[emailHash];
 
         for (uint256 i = 0; i < voterCount; i++) {
             payable(currentVoters[i]).transfer(reward);
         }
-
-        depositAmount[emailHash] = 0;
-        delete voters[emailHash];
     }
 }
