@@ -5,6 +5,7 @@ contract transferToken {
     address public owner;
     mapping(bytes32 => uint256) private depositAmount;
     mapping(bytes32 => address[]) private voters;
+    mapping(bytes32 => mapping(address => bool)) private voterExists;
 
     constructor() {
         owner = msg.sender;
@@ -21,13 +22,15 @@ contract transferToken {
         depositAmount[emailHash] += msg.value;
     }
 
-    function addVoter(address voterAddress, string memory email) public {
+    function addVoter(address voterAddress, string memory email) public onlyOwner {
         require(voterAddress != address(0), "Invalid address.");
         bytes32 emailHash = keccak256(abi.encodePacked(email));
+        require(!voterExists[emailHash][voterAddress], "Voter already added.");
         voters[emailHash].push(voterAddress);
+        voterExists[emailHash][voterAddress] = true;
     }
 
-    function shareEther(string memory email) public {
+    function shareEther(string memory email) public onlyOwner {
         bytes32 emailHash = keccak256(abi.encodePacked(email));
         address[] memory currentVoters = voters[emailHash];
         uint256 voterCount = currentVoters.length;
