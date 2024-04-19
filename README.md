@@ -37,7 +37,11 @@ A distributed governance model that empowers users to vote on important decision
 ### ML design overall
 
 
-![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/83390795/77ae794c-8ff2-4bd3-af73-dc4075651d71)
+![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/55873378/377d75e7-d8cc-42c0-8c3b-f5f7d9fc1c5f)
+
+### Integration of ML and smart contract
+
+![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/55873378/e9b8e126-5b39-4dca-9f11-86f7ac876b87)
 
 
 ### Sequence picture
