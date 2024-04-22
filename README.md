@@ -55,7 +55,7 @@ A distributed governance model that empowers users to vote on important decision
 ### For run the code on the phone with the app 
 
 ### Frist step:
-you can download release version and install on the Andriod phone 
+you can download [release version](https://github.com/wei-jun7/toolset/releases) and install on the Andriod phone 
 
 ### Second step:
 Open the app and silde the sub-menu to the Spam detector 
