@@ -67,7 +67,7 @@ You must login in by your public key as username and private as the password, Al
 Then you can enter the message you want to test and the where it come from into the soure info. Then wait for the server response and show the result to you. 
 
 ### Fifth step:
-If the message is ham, the address on the source info will automatic to send to the IPFS database to store for everyone to review it. You can partiation the to the community event to earn the token for more test which we will reward for people vote on the blacklist for the 
+If the message is spam, the address on the source info will automatic to send to the IPFS database to store for everyone to review it. You can partiation the to the community event to earn the token for more test which we will reward for people vote on the blacklist for the 
 address is misput on the blacklist by show the origion message and get the majority vote on the community member.
 
 ### For the development 
