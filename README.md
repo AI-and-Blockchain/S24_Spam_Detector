@@ -69,6 +69,7 @@ Then you can enter the message you want to test and the where it come from into 
 ### Fifth step:
 If the message is spam, the address on the source info will automatic to send to the IPFS database to store for everyone to review it. You can partiation the to the community event to earn the token for more test which we will reward for people vote on the blacklist for the 
 address is misput on the blacklist by show the origion message and get the majority vote on the community member.
+![image](https://github.com/wei-jun7/toolset/assets/83390795/0afb549b-524e-4c5b-a79d-c7e3e53d15a7)
 
 ### For the development 
 
