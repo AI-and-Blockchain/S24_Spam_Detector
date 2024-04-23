@@ -16,7 +16,7 @@ contract transferToken {
         _;
     }
 
-    function sendMessage(string memory email) public payable {
+    function chargeFee(string memory email) public payable {
         require(msg.value > 0, "Ether deposit required");
         bytes32 emailHash = keccak256(abi.encodePacked(email));
         depositAmount[emailHash] += msg.value;
