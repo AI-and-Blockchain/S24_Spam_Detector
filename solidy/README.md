@@ -20,4 +20,4 @@ The `MessageContract` outlines the fee structure and rewards mechanism implement
 - **Information Logging**: During the voting process for whitelisting an email address, the smart contract logs specific information like voter’s account address and email address they voted for.
 - **Rewarding Voters**: The smart contract distributes the accumulated tokens for a particular email address equally among the voters who supported its whitelisting.
 
-![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/94344406/2fd55b3e-0e7b-42b7-9229-07cefbd30ea8)
+![image](https://github.com/AI-and-Blockchain/S24_Spam_Detector/assets/94344406/c7f41b9b-3b11-46ec-ae86-6e925d2616bf)
